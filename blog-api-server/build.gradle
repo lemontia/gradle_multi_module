@@ -1,0 +1,10 @@
+bootJar {
+    archiveFileName = 'blog-api-server.jar'
+}
+
+dependencies {
+    implementation project(path: ":blog-common", configuration: 'default')
+//    implementation project(path: ":blog-common")
+
+    compile('org.springframework.boot:spring-boot-starter-web')
+}

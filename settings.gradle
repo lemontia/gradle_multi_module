@@ -1,0 +1,4 @@
+rootProject.name = 'blog-systems'
+include 'blog-common'
+include 'blog-api-server'
+
